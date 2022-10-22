@@ -1,0 +1,46 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do registrador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/registrador_bloqueante.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registrador_bloqueante
+# 
+# Top level modules:
+# 	registrador_bloqueante
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TB_regis
+# 
+# Top level modules:
+# 	TB_regis
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  TB_regis
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps TB_regis 
+# Loading work.TB_regis
+# ** Error: (vsim-3033) C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v(25): Instantiation of 'registrador' failed. The design unit was not found.
+# 
+#         Region: /TB_regis
+#         Searched libraries:
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/altera
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/220model
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/sgate
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/altera_mf
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii
+#             C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/simulation/modelsim/rtl_work
+#             C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/simulation/modelsim/rtl_work
+#             C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./registrador_run_msim_rtl_verilog.do PAUSED at line 12

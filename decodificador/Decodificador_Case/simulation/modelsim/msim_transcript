@@ -1,0 +1,71 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Decodificador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case/Decodificador_Case.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Decodificador_Case
+# 
+# Top level modules:
+# 	Decodificador_Case
+# 
+vsim work.Decodificador_Case
+# vsim work.Decodificador_Case 
+# Loading work.Decodificador_Case
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/Decodificador_Case/entrada
+add wave -position insertpoint  \
+sim:/Decodificador_Case/SAIDA
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[6]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[5]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[4]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[3]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[2]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[1]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[0]}
+run
+restart
+run
+run
+run
+run
+restart
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/Decodificador_Case/entrada
+add wave -position insertpoint  \
+sim:/Decodificador_Case/SAIDA
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[6]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[5]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[4]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[3]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[2]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[1]}
+add wave -position insertpoint  \
+{sim:/Decodificador_Case/SAIDA[0]}
+run
+run
+run
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run

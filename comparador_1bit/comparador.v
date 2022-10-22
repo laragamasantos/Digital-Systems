@@ -1,0 +1,25 @@
+
+/*
+NOME: Lara Gama, Mateus Ribeiro, Sulamita
+DATA: 17/11/2021
+
+A, B - entradas
+Amaior, igual, Amenor - saídas
+
+A = 1: nível lógico alto
+~A = 0: nível lógico baixo
+Amaior = 1: indica que A tem nível lógico alto e B tem nível lógico baixo.
+Amenor = 1: indica que A tem nível lógico baixo e B tem nível lógico alto.
+igual = 1: A e B possuem o mesmo nível lógico.
+
+*/
+
+module comparador (A, B, Amaior, igual, Amenor);
+input A,B;
+output Amaior, igual, Amenor;
+
+assign igual = (A & B) | (~A & ~B);
+assign Amaior = (A & ~B);
+assign Amenor = (~A & B);
+
+endmodule 

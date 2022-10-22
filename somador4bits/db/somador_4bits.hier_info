@@ -1,0 +1,100 @@
+|somador_4bits
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+SOMA[0] <= somador_1bit:bloco0.port3
+SOMA[1] <= somador_1bit:bloco1.port3
+SOMA[2] <= somador_1bit:bloco2.port3
+SOMA[3] <= somador_1bit:bloco3.port3
+SOMA[4] <= somador_1bit:bloco3.port4
+
+
+|somador_4bits|somador_1bit:bloco0
+A => SOMA.IN0
+A => SOMA.IN0
+A => TS.IN0
+A => SOMA.IN0
+A => SOMA.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+B => TS.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+TE => TS.IN1
+TE => TS.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+SOMA <= SOMA.DB_MAX_OUTPUT_PORT_TYPE
+TS <= TS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:bloco1
+A => SOMA.IN0
+A => SOMA.IN0
+A => TS.IN0
+A => SOMA.IN0
+A => SOMA.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+B => TS.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+TE => TS.IN1
+TE => TS.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+SOMA <= SOMA.DB_MAX_OUTPUT_PORT_TYPE
+TS <= TS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:bloco2
+A => SOMA.IN0
+A => SOMA.IN0
+A => TS.IN0
+A => SOMA.IN0
+A => SOMA.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+B => TS.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+TE => TS.IN1
+TE => TS.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+SOMA <= SOMA.DB_MAX_OUTPUT_PORT_TYPE
+TS <= TS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:bloco3
+A => SOMA.IN0
+A => SOMA.IN0
+A => TS.IN0
+A => SOMA.IN0
+A => SOMA.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+B => TS.IN0
+B => SOMA.IN1
+B => SOMA.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+TE => TS.IN1
+TE => TS.IN1
+TE => SOMA.IN1
+TE => SOMA.IN1
+SOMA <= SOMA.DB_MAX_OUTPUT_PORT_TYPE
+TS <= TS.DB_MAX_OUTPUT_PORT_TYPE
+
+

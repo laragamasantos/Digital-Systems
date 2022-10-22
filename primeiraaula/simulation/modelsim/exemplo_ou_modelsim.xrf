@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/db/exemplo_ou.cbx.xml
+design_name = exemplo_ou
+instance = comp, \A~I , A, exemplo_ou, 1
+instance = comp, \B~I , B, exemplo_ou, 1
+instance = comp, \S~0 , S~0, exemplo_ou, 1
+instance = comp, \S~I , S, exemplo_ou, 1

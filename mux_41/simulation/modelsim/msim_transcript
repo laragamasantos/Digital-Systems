@@ -1,0 +1,43 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_41_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41 {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_41.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_41
+# 
+# Top level modules:
+# 	mux_41
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41 {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_21.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_21
+# 
+# Top level modules:
+# 	mux_21
+# 
+vsim work.mux_41
+# vsim work.mux_41 
+# Loading work.mux_41
+# Loading work.mux_21
+wave create -driver freeze -pattern clock -initialvalue 1 -period 88ps -dutycycle 60 -starttime 0ps -endtime 1000ps sim:/mux_41/i0
+wave create -driver freeze -pattern clock -initialvalue 1 -period 5ps -dutycycle 70 -starttime 0ps -endtime 1000ps sim:/mux_41/i1
+wave create -driver freeze -pattern clock -initialvalue 1 -period 300ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_41/i2
+wave create -driver freeze -pattern clock -initialvalue 1 -period 15ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_41/i3
+wave create -driver freeze -pattern clock -initialvalue 1 -period 55ps -dutycycle 60 -starttime 0ps -endtime 1000ps sim:/mux_41/A
+wave create -driver freeze -pattern clock -initialvalue 1 -period 33ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_41/B
+add wave -position insertpoint  \
+sim:/mux_41/S0
+add wave -position insertpoint  \
+sim:/mux_41/S1
+add wave -position insertpoint  \
+sim:/mux_41/S
+run
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/wave.do

@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\Decodificador_Boolean\simulation\modelsim
+vDecodificador_Boolean
+!i10b 1
+!s100 JNM5bB8ohfb<SzG:AcPM73
+IE?SU4^26E>5nf:TXaOIAT1
+Vc1H4mC4WVe7R<f8fGXPTc2
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\Decodificador_Boolean\simulation\modelsim
+w1642774139
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean/Decodificador_Boolean.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean/Decodificador_Boolean.v
+L0 10
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1642947663.147000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean/Decodificador_Boolean.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean/Decodificador_Boolean.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean -O0
+n@decodificador_@boolean

@@ -1,0 +1,30 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do atividade_farol_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module atividade_farol
+# 
+# Top level modules:
+# 	atividade_farol
+# 
+vsim work.atividade_farol
+# vsim work.atividade_farol 
+# Loading work.atividade_farol
+add wave -position insertpoint  \
+sim:/atividade_farol/saida
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/atividade_farol/farol
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/atividade_farol/porta
+wave create -driver freeze -pattern clock -initialvalue 0 -period 25ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/atividade_farol/chave
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/wave.do
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/wave.do -append

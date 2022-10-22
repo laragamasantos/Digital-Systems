@@ -1,0 +1,32 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comp4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comp4
+# 
+# Top level modules:
+# 	comp4
+# 
+vsim work.comp4
+# vsim work.comp4 
+# Loading work.comp4
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comp4/A
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comp4/B
+add wave -position insertpoint  \
+sim:/comp4/Amaior
+add wave -position insertpoint  \
+sim:/comp4/igual
+add wave -position insertpoint  \
+sim:/comp4/Amenor
+run
+run

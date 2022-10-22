@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\Decodificador_Case\simulation\modelsim
+vDecodificador_Case
+!i10b 1
+!s100 UOWXYJVE;Wh[kUF^jFA^<3
+I9honiGJG=eReZ1876Dh3Y3
+V9ZmR0KlPWWB9@S4mmk2Wh3
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\Decodificador_Case\simulation\modelsim
+w1642953276
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case/Decodificador_Case.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case/Decodificador_Case.v
+L0 9
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1642953370.838000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case/Decodificador_Case.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case/Decodificador_Case.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Case -O0
+n@decodificador_@case

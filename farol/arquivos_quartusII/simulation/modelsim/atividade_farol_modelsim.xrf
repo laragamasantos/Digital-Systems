@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/db/atividade_farol.cbx.xml
+design_name = atividade_farol
+instance = comp, \chave~I , chave, atividade_farol, 1
+instance = comp, \farol~I , farol, atividade_farol, 1
+instance = comp, \porta~I , porta, atividade_farol, 1
+instance = comp, \saida~0 , saida~0, atividade_farol, 1
+instance = comp, \saida~I , saida, atividade_farol, 1

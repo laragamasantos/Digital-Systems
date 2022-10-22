@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\contador_sincrono\contador_sincrono_modulo10\simulation\modelsim
+vcontador_4bits_tb
+!i10b 1
+!s100 VIL0UG9FW4]K`YYU9RKnD0
+IE08Dj^]1>j]fY81Oa2eR]0
+Va52;e7EBJ3H8_d`J?Jkak0
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\contador_sincrono\contador_sincrono_modulo10\simulation\modelsim
+w1644797518
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/testbench_contador_4bits.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/testbench_contador_4bits.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1644797987.130000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/testbench_contador_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/testbench_contador_4bits.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10 -O0
+vcontador_modulo10
+IXnL9<;dgH<f9co3YanJG]3
+VOWU]XjY`i?9<h_UYMi]5G1
+R1
+w1644782172
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/contador_modulo10.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/contador_modulo10.v
+L0 9
+R2
+r1
+31
+R3
+!i10b 1
+!s100 SzBcKcdjeYY>5OHzknjdE2
+!s85 0
+!s108 1644797986.996000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/contador_modulo10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_modulo10/contador_modulo10.v|
+!s101 -O0
+R4

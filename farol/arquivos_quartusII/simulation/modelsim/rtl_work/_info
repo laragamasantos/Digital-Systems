@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\atividade_farol\simulation\modelsim
+vatividade_farol
+!i10b 1
+!s100 E6jKaiW^4;zLiJf@?Jh701
+IeO_RWm>EYkA;dg1W`dP3E0
+V0MP<khjE`m=6BiiKf054Z2
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\atividade_farol\simulation\modelsim
+w1636649957
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v
+L0 24
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1636650041.497000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol/atividade_farol.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/atividade_farol -O0

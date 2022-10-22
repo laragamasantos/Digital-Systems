@@ -1,0 +1,15 @@
+/*
+NOMES: Lara Gama, Mateus Ribeiro, Sulamita Ester
+PROJETO: Registrador
+DATA: 26/01/2022
+
+ENTRADAS:
+SAÍDAS:
+*/
+
+module registrador_bloqueante()
+
+input clock, reset;
+output Q0;
+
+endmodule

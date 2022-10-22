@@ -1,0 +1,32 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do exemplo_ou_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module exemplo_ou
+# 
+# Top level modules:
+# 	exemplo_ou
+# 
+vsim work.exemplo_ou
+# vsim work.exemplo_ou 
+# Loading work.exemplo_ou
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exemplo_ou/B
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/exemplo_ou/A
+add wave -position end -format Logic -height 17 -editable 2 Edit:/exemplo_ou/B
+add wave -position insertpoint  \
+sim:/exemplo_ou/S
+add wave -position insertpoint  \
+sim:/exemplo_ou/S
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/simulation/modelsim/wave.do -append

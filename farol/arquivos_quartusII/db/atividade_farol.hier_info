@@ -1,0 +1,11 @@
+|atividade_farol
+farol => saida.IN0
+farol => saida.IN0
+porta => saida.IN1
+porta => saida.IN1
+chave => saida.IN1
+chave => saida.IN1
+chave => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {sinalizador_farol.vo sinalizador_farol_v.sdo}}
+	{{"Fast Model"} {sinalizador_farol_fast.vo sinalizador_farol_v_fast.sdo}}
+}

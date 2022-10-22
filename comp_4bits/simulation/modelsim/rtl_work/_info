@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\comp_4bits\simulation\modelsim
+vcomp4
+!i10b 1
+!s100 a5DQ7m6N=5=AI?j`>Y1;;1
+Iz4^>6SK?Dd_^ohZ=ULM6E0
+VVnoehXjb=^iT82]MdT;[21
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\comp_4bits\simulation\modelsim
+w1637778770
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v
+L0 17
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1637778836.260000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits -O0

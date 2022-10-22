@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\registrador_naobloqueante\simulation\modelsim
+vregistrador_naobloqueante
+IV;bB4dWMb3=REXIn]fW8@3
+VMLm9REB;VTKEj^11QFb>z3
+Z1 dC:\altera\registrador_naobloqueante\simulation\modelsim
+w1643488156
+8C:/altera/registrador_naobloqueante/registrador_naobloqueante.v
+FC:/altera/registrador_naobloqueante/registrador_naobloqueante.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 ^HMTX>M0nQ1j<Yz?k3ZXg3
+!s85 0
+!s108 1643496639.513000
+!s107 C:/altera/registrador_naobloqueante/registrador_naobloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/registrador_naobloqueante|C:/altera/registrador_naobloqueante/registrador_naobloqueante.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/altera/registrador_naobloqueante -O0
+vTB_regis
+!i10b 1
+!s100 ]hSafz8:kZ4j:aB:1oS=30
+IGk4R<daWBmmd;[KcGOCiK3
+VzA7OWnJ^NiAdWY<M7L1HL0
+R1
+w1643494864
+8C:/altera/registrador_naobloqueante/TB_regis.v
+FC:/altera/registrador_naobloqueante/TB_regis.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1643496639.571000
+!s107 C:/altera/registrador_naobloqueante/TB_regis.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/registrador_naobloqueante|C:/altera/registrador_naobloqueante/TB_regis.v|
+!s101 -O0
+R3
+R4
+n@t@b_regis

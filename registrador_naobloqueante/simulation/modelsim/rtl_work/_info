@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\registrador_naobloqueante\simulation\modelsim
+vregistrador_naobloqueante
+!i10b 1
+!s100 Y<YYCm;5YX4B2j4:Id?ck0
+IPhz]TGgo]mHU6YCQOT9X00
+VMLm9REB;VTKEj^11QFb>z3
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\registrador_naobloqueante\simulation\modelsim
+w1643488171
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante/registrador_naobloqueante.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante/registrador_naobloqueante.v
+L0 10
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1643489653.263000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante/registrador_naobloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante/registrador_naobloqueante.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador_naobloqueante -O0

@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\mux_21\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 RAH3_[ihU6BGa<cI:@FIN3
+I7LgRIbnb87`UW_[=K>o[E2
+VYAOi>iR]2_Md6m5M`YH1S3
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\mux_21\simulation\modelsim
+w1638901459
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/mux_21.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/mux_21.v
+L0 12
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1638901531.483000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/mux_21.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21 -O0

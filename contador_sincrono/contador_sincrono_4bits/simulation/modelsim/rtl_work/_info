@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\contador_sincrono\contador_sincrono_4bits\simulation\modelsim
+vcontador_4bits
+I<iQQRPXN9IN60I0B^VF;J3
+VWBlnBZfILFd_1dcb>a=UV0
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\contador_sincrono\contador_sincrono_4bits\simulation\modelsim
+w1644537334
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/contador_sincrono.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/contador_sincrono.v
+L0 9
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 >OdmV9YZKXY[M@IBcm59V1
+!s85 0
+!s108 1644796854.391000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/contador_sincrono.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/contador_sincrono.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits -O0
+vcontador_sincrono_tb
+!i10b 1
+!s100 ^Geg?ZGi0CCGPEOTUV1?L1
+II>eTk2EC`hCho<Uc0=iK^1
+VRE?gnMVOel1=32MWN7k_30
+R1
+w1644796795
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/testbench_contador_sincrono.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/testbench_contador_sincrono.v
+L0 10
+R2
+r1
+!s85 0
+31
+!s108 1644796854.507000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/testbench_contador_sincrono.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/contador_sincrono/contador_sincrono_4bits/testbench_contador_sincrono.v|
+!s101 -O0
+R3
+R4

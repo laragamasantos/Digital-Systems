@@ -1,0 +1,16 @@
+|registrador_naobloqueante
+clock => D~reg0.CLK
+clock => C~reg0.CLK
+clock => B~reg0.CLK
+clock => A~reg0.CLK
+reset => D~reg0.ACLR
+reset => C~reg0.ACLR
+reset => B~reg0.ACLR
+reset => A~reg0.ACLR
+entrada => A~reg0.DATAIN
+A <= A~reg0.DB_MAX_OUTPUT_PORT_TYPE
+B <= B~reg0.DB_MAX_OUTPUT_PORT_TYPE
+C <= C~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D <= D~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

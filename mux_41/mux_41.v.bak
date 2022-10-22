@@ -1,0 +1,16 @@
+/*
+Projeto: circuito digital multiplexador (PARTE 2)
+NOMES : Lara Gama, Mateus Ribeiro, Sulamita Ester Costa
+DATA: 07/12/21
+
+Entradas: i0, i1, i2, i3
+Saida: S
+Variaveis de entrada de controle: A, B
+
+*/
+
+//principal - main
+module mux_41();
+
+
+endmodule

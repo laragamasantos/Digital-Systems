@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/db/comparador.cbx.xml
+design_name = comparador
+instance = comp, \A~I , A, comparador, 1
+instance = comp, \B~I , B, comparador, 1
+instance = comp, \Amaior~0 , Amaior~0, comparador, 1
+instance = comp, \igual~0 , igual~0, comparador, 1
+instance = comp, \Amenor~0 , Amenor~0, comparador, 1
+instance = comp, \Amaior~I , Amaior, comparador, 1
+instance = comp, \igual~I , igual, comparador, 1
+instance = comp, \Amenor~I , Amenor, comparador, 1

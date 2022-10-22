@@ -1,0 +1,14 @@
+|comparador
+A => igual.IN0
+A => Amaior.IN0
+A => igual.IN0
+A => Amenor.IN0
+B => igual.IN1
+B => Amenor.IN1
+B => Amaior.IN1
+B => igual.IN1
+Amaior <= Amaior.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+Amenor <= Amenor.DB_MAX_OUTPUT_PORT_TYPE
+
+

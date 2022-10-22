@@ -1,0 +1,33 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comparador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador
+# 
+# Top level modules:
+# 	comparador
+# 
+vsim work.comparador
+# vsim work.comparador 
+# Loading work.comparador
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comparador/A
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comparador/B
+add wave -position insertpoint  \
+sim:/comparador/Amaior
+add wave -position insertpoint  \
+sim:/comparador/igual
+add wave -position insertpoint  \
+sim:/comparador/Amenor
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/simulation/modelsim/wave.do
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/simulation/modelsim/wave.do -append

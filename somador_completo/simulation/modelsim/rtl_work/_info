@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador_completo\simulation\modelsim
+vsomador_1bit
+!i10b 1
+!s100 Xl?0LE^]X:4[gbPgm:f]b2
+IYB:O?]2kl3zdnJJd2U]DH2
+V?ng3jBz`hYlVlcWGbaEEl0
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador_completo\simulation\modelsim
+w1641990246
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_1bit.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_1bit.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1641996431.994000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_1bit.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo -O0
+vsomador_completo
+I;VKK:Tld^i2?D6jVGP@4`2
+Vo`IgEhUik]RKVg8Xn2OdF0
+R1
+w1641994555
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_completo.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_completo.v
+L0 11
+R2
+r1
+31
+R3
+!i10b 1
+!s100 CLP?81zVB:;zQk1B`gW^G1
+!s85 0
+!s108 1641996431.680000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_completo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_completo.v|
+!s101 -O0
+R4

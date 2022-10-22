@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/mux_21.v
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_21/db/mux_21.cbx.xml
+design_name = mux_21
+instance = comp, \sel~I , sel, mux_21, 1
+instance = comp, \i1~I , i1, mux_21, 1
+instance = comp, \i0~I , i0, mux_21, 1
+instance = comp, \saida~0 , saida~0, mux_21, 1
+instance = comp, \saida~I , saida, mux_21, 1

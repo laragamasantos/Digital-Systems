@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador1bit_LaraGama_MateusRibeiro_Sulamita\simulation\modelsim
+vsomador_1bit
+!i10b 1
+!s100 BNzU6afm_17[miY9>954h2
+IbgfXn2M_L`[>K;ZlBMMQ`2
+V?ng3jBz`hYlVlcWGbaEEl0
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador1bit_LaraGama_MateusRibeiro_Sulamita\simulation\modelsim
+w1640011139
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v
+L0 10
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1640011157.944000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador1bit_LaraGama_MateusRibeiro_Sulamita -O0

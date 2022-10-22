@@ -1,0 +1,54 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador_completo_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_completo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_completo
+# 
+# Top level modules:
+# 	somador_completo
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/somador_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_1bit
+# 
+# Top level modules:
+# 	somador_1bit
+# 
+vsim work.somador_completo
+# vsim work.somador_completo 
+# Loading work.somador_completo
+# Loading work.somador_1bit
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 160ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_completo/A
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 20ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_completo/B
+wave create -driver freeze -pattern counter -startvalue 0 -endvalue 1 -type Binary -direction Up -period 80ps -step 1 -repeat forever -starttime 0ps -endtime 10000ps sim:/somador_completo/C0
+add wave -position insertpoint  \
+sim:/somador_completo/SOMA
+add wave -position insertpoint  \
+{sim:/somador_completo/SOMA[4]}
+add wave -position insertpoint  \
+{sim:/somador_completo/SOMA[3]}
+add wave -position insertpoint  \
+{sim:/somador_completo/SOMA[2]}
+add wave -position insertpoint  \
+{sim:/somador_completo/SOMA[1]}
+add wave -position insertpoint  \
+{sim:/somador_completo/SOMA[0]}
+add wave -position insertpoint  \
+sim:/somador_completo/T
+add wave -position insertpoint  \
+sim:/somador_completo/D
+run
+# WARNING: No extended dataflow license exists
+# Break key hit 
+# Break key hit 
+run
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador_completo/wave.do

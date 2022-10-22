@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\mux_41\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 H4o]?`C6b4l_[^ZX2HDfR0
+IM^B4fBAY13XEcZ@G?nTZg2
+VYAOi>iR]2_Md6m5M`YH1S3
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\mux_41\simulation\modelsim
+w1638905702
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_21.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_21.v
+L0 12
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1638908641.816000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_21.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41 -O0
+vmux_41
+IL2z7iGZ_ZV[IHaLed;hjV1
+VT_MaKjDhL8@XjXMl_LYM42
+R1
+w1638907486
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_41.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_41.v
+L0 13
+R2
+r1
+31
+R3
+!i10b 1
+!s100 U61A28zHObXn>@PJU9c2I2
+!s85 0
+!s108 1638908641.658000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_41.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/mux_41/mux_41.v|
+!s101 -O0
+R4

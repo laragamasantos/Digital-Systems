@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\comparador_1bit\simulation\modelsim
+vcomparador
+!i10b 1
+!s100 5Ca;oz:N^CYkH?cEC8>H[0
+Iilo38SdWHK8]oa0hm4fD>2
+VS6Tf=<KWeQ3I:RW]RA=Sl2
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\comparador_1bit\simulation\modelsim
+w1637151425
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v
+L0 17
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1637151639.303000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit/comparador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comparador_1bit -O0

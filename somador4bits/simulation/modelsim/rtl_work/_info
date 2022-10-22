@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador4bits_LaraGama_MateusRibeiro_Sulamita\simulation\modelsim
+vsomador_1bit
+!i10b 1
+!s100 L3:iL]]^<gGA[_J]cBm2d1
+IQ3`Kd8hclBeU>`8kj_I6l1
+V?ng3jBz`hYlVlcWGbaEEl0
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\somador4bits_LaraGama_MateusRibeiro_Sulamita\simulation\modelsim
+w1640021935
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1640025284.948000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita -O0
+vsomador_4bits
+IfaPB09S0T8IYbBj;0jQ672
+VB3JjgKPnLIgF8`mnU<AV21
+R1
+w1640025025
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v
+L0 10
+R2
+r1
+31
+R3
+!i10b 1
+!s100 H^_H3^dUK=ZSaP8jI8l_B3
+!s85 0
+!s108 1640025284.782000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v|
+!s101 -O0
+R4

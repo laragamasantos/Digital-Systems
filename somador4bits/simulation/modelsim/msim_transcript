@@ -1,0 +1,60 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador_4bits_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_4bits
+# 
+# Top level modules:
+# 	somador_4bits
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_1bit
+# 
+# Top level modules:
+# 	somador_1bit
+# 
+vsim work.somador_4bits
+# vsim work.somador_4bits 
+# Loading work.somador_4bits
+# Loading work.somador_1bit
+# ** Warning: (vsim-3015) C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_4bits.v(18): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'TE'. The port definition is at: C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/somador_1bit.v(10).
+# 
+#         Region: /somador_4bits/bloco0
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 160ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_4bits/A
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 10ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_4bits/B
+add wave -position insertpoint  \
+{sim:/somador_4bits/SOMA[4]}
+add wave -position insertpoint  \
+{sim:/somador_4bits/SOMA[3]}
+add wave -position insertpoint  \
+{sim:/somador_4bits/SOMA[2]}
+add wave -position insertpoint  \
+{sim:/somador_4bits/SOMA[1]}
+add wave -position insertpoint  \
+{sim:/somador_4bits/SOMA[0]}
+run
+run
+add wave -position insertpoint  \
+sim:/somador_4bits/SOMA
+add wave -position insertpoint  \
+sim:/somador_4bits/T
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 160ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_4bits/B
+add wave -position 1 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/somador_4bits/B
+add wave -position insertpoint  \
+sim:/somador_4bits/SOMA
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Binary -direction Up -period 10ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 10000ps sim:/somador_4bits/B
+add wave -position 1 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/somador_4bits/B
+run
+add wave -position insertpoint  \
+sim:/somador_4bits/SOMA
+wave editwrite -file C:/Users/larag/OneDrive/Documentos/sistemasdigitais/somador4bits_LaraGama_MateusRibeiro_Sulamita/wave.do

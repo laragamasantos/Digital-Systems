@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/comp4.v
+source_file = 1, C:/Users/larag/OneDrive/Documentos/sistemasdigitais/comp_4bits/db/comp4.cbx.xml
+design_name = comp4
+instance = comp, \A~I , A, comp4, 1
+instance = comp, \B~I , B, comp4, 1
+instance = comp, \Amaior~0 , Amaior~0, comp4, 1
+instance = comp, \igual~0 , igual~0, comp4, 1
+instance = comp, \Amenor~0 , Amenor~0, comp4, 1
+instance = comp, \Amaior~I , Amaior, comp4, 1
+instance = comp, \igual~I , igual, comp4, 1
+instance = comp, \Amenor~I , Amenor, comp4, 1

@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\simulation\modelsim
+vsinalizador_farol
+!i10b 1
+!s100 ;=RmE_ZY]h`5578k6059P0
+I0OC;Ao0Q=Eo4h>>ML8nV@2
+VmV:L^>`UMR7Z02d>^nhBX1
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\simulation\modelsim
+w1636413042
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/sinalizador_farol.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/sinalizador_farol.v
+L0 24
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1636414244.806000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/sinalizador_farol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/sinalizador_farol.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais -O0

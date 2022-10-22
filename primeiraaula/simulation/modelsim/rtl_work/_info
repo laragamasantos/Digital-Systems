@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\primeiraaula\simulation\modelsim
+vexemplo_ou
+!i10b 1
+!s100 SUJ3FkF^B1OD;@iT7QP8^3
+IGYdVcIzD@Ukj4M@JX5T2I1
+VhL=HA`AV_<T8e45HQ@B`40
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\primeiraaula\simulation\modelsim
+w1635447391
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v
+L0 8
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1635447531.246000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula/exemplo_ou.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/primeiraaula -O0

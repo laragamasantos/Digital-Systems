@@ -1,0 +1,41 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Decodificador_Boolean_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean {C:/Users/larag/OneDrive/Documentos/sistemasdigitais/Decodificador_Boolean/Decodificador_Boolean.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Decodificador_Boolean
+# 
+# Top level modules:
+# 	Decodificador_Boolean
+# 
+vsim work.Decodificador_Boolean
+# vsim work.Decodificador_Boolean 
+# Loading work.Decodificador_Boolean
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/Decodificador_Boolean/A
+wave create -driver freeze -pattern clock -initialvalue 0 -period 80ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/Decodificador_Boolean/B
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 50ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/Decodificador_Boolean/C
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 25ps -dutycycle 50 -starttime 0ps -endtime 10000ps sim:/Decodificador_Boolean/D
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/a
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/b
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/c
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/d
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/e
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/f
+add wave -position insertpoint  \
+sim:/Decodificador_Boolean/g
+run

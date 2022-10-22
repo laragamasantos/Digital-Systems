@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\registrador\simulation\modelsim
+vregistrador_bloqueante
+Ie45Y8YZQag09a38nlj7CP1
+VZe<_[JAcW^MB`fII2MUe30
+Z1 dC:\Users\larag\OneDrive\Documentos\sistemasdigitais\registrador\simulation\modelsim
+w1643293697
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/registrador_bloqueante.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/registrador_bloqueante.v
+L0 10
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 KRGn>`<blCH0:KI04_M5F0
+!s85 0
+!s108 1643294898.438000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/registrador_bloqueante.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/registrador_bloqueante.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador -O0
+vTB_regis
+!i10b 1
+!s100 OTeFn_lPISW=31@h:72I@3
+Id2EU;DYeRh3T4BdLZI`?E1
+VzA7OWnJ^NiAdWY<M7L1HL0
+R1
+w1643294543
+8C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v
+FC:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v
+L0 15
+R2
+r1
+!s85 0
+31
+!s108 1643294898.627000
+!s107 C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador|C:/Users/larag/OneDrive/Documentos/sistemasdigitais/registrador/TB_regis.v|
+!s101 -O0
+R3
+R4
+n@t@b_regis
